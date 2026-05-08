@@ -11,8 +11,7 @@ ISO00009
  stages {
  stage('Checkout') {
  steps {
- git branch: 'master', url: 'https://github.com/MajuShree/MavenAnsibleApp.git-
-CICD.git'
+ git branch: 'master', url: 'https://github.com/MajuShree/MavenAnsibleApp.git-CICD.git'
  }
  }
  stage('Build') {
