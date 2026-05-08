@@ -11,8 +11,7 @@ ISO00009
  stages {
  stage('Checkout') {
  steps {
- git branch: 'master', url: 'https://github.com/MajuShree/MavenAnsibleWApp-
-CICD.git'
+ git branch: 'master', url: 'https://github.com/MajuShree/MavenAnsibleWApp-CICD.git'
  }
  }
  stage('Build') {
